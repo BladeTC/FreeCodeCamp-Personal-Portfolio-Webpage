@@ -1,67 +1,92 @@
-body{
-    display: grid;
-    background-color:#0a0a23;
-    color:#ffffff;
-    height:100%;
-    margin: 0;
-  }
-  header{
-    display: flex;
-    flex-direction: row-reverse;
-    position:fixed;
-    top: 0;
-    z-index: 2;
-    background-color: #0a0a23;
-    color:#ffffff;
-    border:1px #ffffff solid;
-    border-top: 0;
-    border-left: 0;
-    border-right: 0;
-    height:7vh;
-    width: 100vw;
-
-  }
-  ol{
-    text-align: right;
-    display: flex;
-  }
-  li{
-    list-style-type: none;
-    padding: 1rem;
-    padding-top: 0;
-  }
-  a{
-    text-align: center;
-    text-decoration: none;
-    display: flex;
-    flex-direction: column;
-    color: #ffffff;
-    font-size: 2rem;
-  }
-  main{
-    z-index: 1;
-    background-color: #1b1b32;
-  }
-  .project-tile{
-    max-width: 30vw;
-    max-height: fit-content;
-    background-color: darkgray;
-  }
-  #welcome-section{
-    min-height:93vh;
-    padding-top: 7vh;
-  }
-  #projects{
-    min-height:auto;
-    display: grid;
-    grid-template-columns: 30vw 30vw 30vw;
-    row-gap: 1rem;
-    justify-content: space-evenly;
-  }
-  @media (max-width: 815px) {
-  }
-  img{
-    align-self: flex-end;
-    height:auto;
-    width:30vw;
-  }
+body {
+  display: grid;
+  background-color: #0a0a23;
+  color: #ffffff;
+  height: 100%;
+  margin: 0;
+}
+header {
+  display: flex;
+  flex-direction: row-reverse;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  background-color: #0a0a23;
+  color: #ffffff;
+  border: 1px #ffffff solid;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  height: 7vh;
+  width: 100vw;
+}
+ol {
+  text-align: right;
+  display: flex;
+}
+li {
+  list-style-type: none;
+  padding: 1rem;
+  padding-top: 0;
+}
+a {
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+main {
+  z-index: 1;
+  background-color: #1b1b32;
+}
+.project-tile {
+  margin: 0;
+  max-height: fit-content;
+  max-width: fit-content;
+  background-color: darkgray;
+  border: darkgray 1px solid;
+}
+#welcome-section {
+  min-height: 93vh;
+  padding-top: 7vh;
+  background-color: #0a0a23;
+  text-align: center;
+  align-content: center;
+}
+#galary {
+  min-height: 93vh;
+  padding-top: 7vh;
+  text-align: center;
+}
+.projects {
+  min-height: auto;
+  display: grid;
+  grid-template-columns: 45vw 45vw;
+  row-gap: 1rem;
+  justify-content: space-evenly;
+}
+@media (max-width: 815px) {
+}
+img {
+  align-self: flex-end;
+  height: auto;
+  width: 44.3vw;
+}
+.nav {
+  font-size: clamp(1rem, 4vw, 2rem);
+}
+navbar {
+  padding-right: 1rem;
+}
+.foot{
+  min-height: 93vh;
+  background-color: #0a0a23;
+}
+footer{
+  border-top: #ffffff 1px solid;
+  text-align: center;
+  align-content: center;
+  min-height: 7vh;
+}
