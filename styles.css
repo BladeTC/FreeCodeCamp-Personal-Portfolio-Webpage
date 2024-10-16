@@ -45,7 +45,7 @@ main {
   margin: 0;
   max-height: fit-content;
   max-width: fit-content;
-  background-color: darkgray;
+  background-color: #595959;
   border: darkgray 1px solid;
 }
 #welcome-section {
@@ -81,6 +81,8 @@ navbar {
   padding-right: 1rem;
 }
 .foot{
+  align-content: center;
+  text-align: center;
   min-height: 93vh;
   background-color: #0a0a23;
 }
@@ -89,4 +91,7 @@ footer{
   text-align: center;
   align-content: center;
   min-height: 7vh;
+}
+h2{
+  font-size: 3rem;
 }
