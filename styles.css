@@ -32,8 +32,6 @@ li {
 a {
   text-align: center;
   text-decoration: none;
-  display: flex;
-  flex-direction: column;
   color: #ffffff;
   font-size: 1.5rem;
 }
@@ -61,6 +59,7 @@ main {
   text-align: center;
 }
 .projects {
+  padding-bottom: 3rem;
   min-height: auto;
   display: grid;
   grid-template-columns: 45vw 45vw;
@@ -93,5 +92,13 @@ footer{
   min-height: 7vh;
 }
 h2{
+  align-self: center;
+  align-self: center;
   font-size: 3rem;
+  text-align: center;
+}
+#fcc-link{
+  max-width: fit-content;
+  font-size: 3rem;
+  border: #595959 2px solid;
 }
